@@ -13,7 +13,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include "../inc/tm4c123gh6pm.h"
+#include "local/tm4c123gh6pm.h"
 #include "AlarmFunct.h"
 
 const int A=500;

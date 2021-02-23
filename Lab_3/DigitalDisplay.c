@@ -16,8 +16,8 @@
 #include <stdlib.h>
 #include "LineDrawer.h"
 #include "DigitalDisplay.h"
-#include "../inc/ST7735.h"
-#include "../inc/tm4c123gh6pm.h"
+#include "local/ST7735.h"
+#include "local/tm4c123gh6pm.h"
 
 const int offsetX1=2;
 const int offsetX2=18;

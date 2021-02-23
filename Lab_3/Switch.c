@@ -16,12 +16,12 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include "Switch.h"
-#include "../inc/ST7735.h"
-#include "../inc/tm4c123gh6pm.h"
-#include "../inc/PLL.h"
-#include "../inc/LaunchPad.h"
-#include "../inc/CortexM.h"
-#include "../inc/TExaS.h"
+#include "local/ST7735.h"
+#include "local/tm4c123gh6pm.h"
+#include "local/PLL.h"
+#include "local/LaunchPad.h"
+#include "local/CortexM.h"
+#include "local/TExaS.h"
 
 //Global Variable ENT & MENU, used in main.c
 int ENT;

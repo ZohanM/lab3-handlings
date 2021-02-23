@@ -8,7 +8,7 @@
 //Final Update: February 15, 2021
 
 #include "Timer0.h"
-#include "../inc/tm4c123gh6pm.h"
+#include "local/tm4c123gh6pm.h"
 #include <stdint.h>
 
 Time currentTime = {0,0,0};

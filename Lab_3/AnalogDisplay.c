@@ -16,8 +16,8 @@
 #include <stdlib.h>
 #include "AnalogDisplay.h"
 #include "LineDrawer.h"
-#include "../inc/ST7735.h"
-#include "../inc/tm4c123gh6pm.h"
+#include "local/ST7735.h"
+#include "local/tm4c123gh6pm.h"
 
 #define PI 3.14
 const unsigned short clockFaceArray[];

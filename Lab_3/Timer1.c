@@ -9,7 +9,7 @@
 //Final Update: February 15, 2021
 
 #include "Timer1.h"
-#include "../inc/tm4c123gh6pm.h"
+#include "local/tm4c123gh6pm.h"
 #include <stdint.h>
 
 #define reloadVal 79999999
