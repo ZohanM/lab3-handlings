@@ -1,0 +1,97 @@
+Dependencies for Project 'ST7735', Target 'ST7735': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\startup.s)(0x60344BC7)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (local/PLL.c)(0x60344BC7)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (local/PLL.h)(0x60344BC7)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+F (local/ST7735.c)(0x60344BC7)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B96FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B96FA)
+I (local/ST7735.h)(0x60344BC7)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+F (local/LaunchPad.c)(0x60344BC7)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\launchpad.o --omf_browse .\launchpad.crf --depend .\launchpad.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (local/LaunchPad.h)(0x60344BC7)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+I (local/CortexM.h)(0x60344BC7)
+F (local/CortexM.c)(0x60344BC7)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\cortexm.o --omf_browse .\cortexm.crf --depend .\cortexm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+F (.\main.c)(0x60344C1F)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (local/ST7735.h)(0x60344BC7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+I (local/PLL.h)(0x60344BC7)
+I (local/LaunchPad.h)(0x60344BC7)
+I (local/CortexM.h)(0x60344BC7)
+I (local/TExaS.h)(0x60344BC7)
+I (Timer0.h)(0x60344C98)
+I (Switch.h)(0x60344BC6)
+I (AnalogDisplay.h)(0x60344BC5)
+I (DigitalDisplay.h)(0x60344BC6)
+I (Timer1.h)(0x60344BC6)
+I (StopwatchTimer.h)(0x60344BC6)
+I (AlarmFunct.h)(0x60344BC5)
+F (.\Timer0.c)(0x60344BFE)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (Timer0.h)(0x60344C98)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+F (.\Switch.c)(0x60344C0B)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\switch.o --omf_browse .\switch.crf --depend .\switch.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B96FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B96FA)
+I (Switch.h)(0x60344BC6)
+I (local/ST7735.h)(0x60344BC7)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+I (local/PLL.h)(0x60344BC7)
+I (local/LaunchPad.h)(0x60344BC7)
+I (local/CortexM.h)(0x60344BC7)
+I (local/TExaS.h)(0x60344BC7)
+F (.\Timer1.c)(0x60344BF9)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\timer1.o --omf_browse .\timer1.crf --depend .\timer1.d)
+I (Timer1.h)(0x60344BC6)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+F (.\StopwatchTimer.c)(0x60344BC6)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\stopwatchtimer.o --omf_browse .\stopwatchtimer.crf --depend .\stopwatchtimer.d)
+I (StopwatchTimer.h)(0x60344BC6)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+F (.\AlarmFunct.c)(0x60344C41)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\alarmfunct.o --omf_browse .\alarmfunct.crf --depend .\alarmfunct.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B96FA)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B96F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B96FA)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+I (AlarmFunct.h)(0x60344BC5)
+F (.\AnalogDisplay.c)(0x60344C34)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\analogdisplay.o --omf_browse .\analogdisplay.crf --depend .\analogdisplay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B96FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B96F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B96FA)
+I (AnalogDisplay.h)(0x60344BC5)
+I (LineDrawer.h)(0x60344BC6)
+I (local/ST7735.h)(0x60344BC7)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+F (.\DigitalDisplay.c)(0x60344C2C)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\digitaldisplay.o --omf_browse .\digitaldisplay.crf --depend .\digitaldisplay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B96FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B96F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B96FA)
+I (LineDrawer.h)(0x60344BC6)
+I (DigitalDisplay.h)(0x60344BC6)
+I (local/ST7735.h)(0x60344BC7)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+F (.\LineDrawer.c)(0x60344CC0)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\linedrawer.o --omf_browse .\linedrawer.crf --depend .\linedrawer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B96FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B96F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B96FA)
+I (LineDrawer.h)(0x60344BC6)
+I (local/ST7735.h)(0x60344BC7)
+I (local/tm4c123gh6pm.h)(0x60344BC7)
+F (.\local\Texas.c)(0x60344BC7)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_ST7735-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"C:\Users\Zohan Marediya\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (local\CortexM.h)(0x60344BC7)
+I (local\tm4c123gh6pm.h)(0x60344BC7)
+I (local\TExaS.h)(0x60344BC7)
+I (local\PLL.h)(0x60344BC7)

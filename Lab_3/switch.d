@@ -1,0 +1,11 @@
+.\switch.o: Switch.c
+.\switch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\switch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\switch.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\switch.o: Switch.h
+.\switch.o: local/ST7735.h
+.\switch.o: local/tm4c123gh6pm.h
+.\switch.o: local/PLL.h
+.\switch.o: local/LaunchPad.h
+.\switch.o: local/CortexM.h
+.\switch.o: local/TExaS.h

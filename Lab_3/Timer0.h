@@ -10,7 +10,7 @@
 #ifndef _TIMER_H
 #define _TIMER_H
 
-#include "../inc/tm4c123gh6pm.h"
+#include "local/tm4c123gh6pm.h"
 
 typedef struct time{
 	int hour;
